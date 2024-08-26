@@ -1,0 +1,565 @@
+/* CSS FOR MENUBAR..... */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#portfolio h2 {
+  font-family: "Ruda", sans-serif;
+  font-size:x-large;
+  color: red;
+  flex: 5;
+  transform: translateX(10%);
+}
+
+#mouli{
+  color: red;
+  font-size: xx-large;
+  font-weight: 400;
+  word-spacing: 5px;
+}
+
+#menu ul li,#menu1 ul li {
+  list-style-type: none;
+}
+
+#menu ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+/* #menu a:hover{
+  color: red;
+} */
+
+#menu1 a:hover{
+  color: red;
+}
+
+#menu {
+  flex: 4;
+}
+
+#menu a,#menu1 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  align-items: center;
+  background-color: rgb(1, 1, 56);
+}
+
+#toggle {
+  color: white;
+  font-size: x-large;
+  display: none;
+}
+
+#menu1 {
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  background-color: rgb(1, 1, 56);
+}
+
+/* CSS FOR HOME PAGE */
+
+#image{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-left: 1%;
+  margin-top: 2%;
+}
+
+#content h4{
+  font-size: xx-large;
+  font-weight: 400;
+  word-spacing: 5px;
+}
+
+#content h5{
+  font-size: large;
+  font-weight: 400;
+  word-spacing: 5px;
+}
+
+#content span{
+  font-size: x-large;
+  font-weight: 400;
+  color: red;
+}
+
+#content p{
+  font-size: large;
+  font-weight: 400;
+  word-spacing: 5px;
+  margin-right: 2%;
+}
+
+#content button{
+  height: 45px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+#content button a{
+  text-decoration: none;
+  color: black;
+}
+
+#content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#home{
+  border-radius: 20px;
+  height: 300px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  background-color:rgb(1, 1, 56) ;
+  color: white;
+  gap: 10%;
+  transform: translate(12%,10%);
+  text-align: center;
+}
+
+/* CSS FOR ABOUT */
+
+#content1 li {
+  list-style-type: none;
+  font-size: large;
+  font-weight: 400;
+  word-spacing: 5px;
+  margin-right: 1%;
+}
+
+#content1{
+  border-radius: 20px;
+  height: 350px;
+  width: 80%;
+  display: flex;
+  text-align: start;
+  align-items: center;
+  background-color:rgb(1, 1, 56) ;
+  color: white;
+}
+
+#content1 li::first-letter{
+  color: red;
+}
+
+#about h4{
+  font-size: xx-large;
+  font-weight: 400;
+  /* text-align: center; */
+}
+
+#about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(18%);
+  gap: 20px;
+}
+
+/* CSS FOR SKILLS.... */
+
+.progress{
+  width: 65%;
+}
+
+.img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.html{
+  border: 0.5px solid black;
+  border-radius: 20px;
+  background-color:rgb(1, 1, 56) ;
+  color: white;
+  height: 450px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 2%;
+  padding: 10px;
+}
+
+.html li{
+  font-size: large;
+}
+
+.html h5{
+  font-size: x-large;
+  font-weight: 400;
+  color: red;
+}
+
+#skill h4{
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+#skillset{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  place-content: center;
+}
+
+#skill{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(12%);
+}
+
+/* CSS FOR PROJECT.... */
+
+#cal{
+  height: 150px;
+  width:150px;
+}
+
+#calculator{
+  border: 0.5px solid black;
+  border-radius: 20px;
+  height: 550px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(1, 1, 56);
+  color: white;
+  /* padding-top:1%; */
+  row-gap: 1%;
+}
+
+#calculator h5{
+  font-size: x-large;
+  font-weight: 400;
+  color: red;
+}
+
+#calculator h6{
+  font-size: large;
+  font-weight: 400;
+  color: red;
+}
+
+#calculator p{
+  font-size: large;
+  font-weight: 400;
+}
+
+#calculator button{
+  height: 45px;
+  width: 180px;
+  border-radius: 10px;
+}
+
+#calculator button a{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+
+.project{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  place-content: center;
+}
+
+#project1 h4{
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+#project1{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  transform: translateY(27%);
+}
+
+/* CSS FOR CONTACT */
+
+#contact h4{
+  font-size: x-large;
+  font-weight: 400;
+  color: red;
+  margin-top:1%;
+}
+
+#contact p{
+  font-size: large;
+  width: 90%;
+  margin-left: 4%;
+  margin-right: 1%;
+}
+
+#icons{
+  font-size: x-large;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  /* text-align: center; */
+  margin-left: 45%;
+}
+
+#icons a{
+  text-decoration: none;
+  color: white;
+}
+
+#contact{
+  background-color: rgb(1, 1, 56);
+  color: white;
+  height: 180px;
+  width: 100%;
+  text-align: center;
+  transform: translateY(200px);
+  align-items: center;
+  justify-content: center;
+}
+
+/* MEDIA QUERRY */
+
+@media screen and (max-width:1116px) {
+  #menu{
+    transform: translateX(-20%);
+  } 
+}
+
+@media screen and (max-width:980px){
+  #skill{
+    transform: translateY(10%);
+  }
+}
+
+@media screen and (max-width:950px){
+  #content1{
+    height: 400px;
+  }
+  #about{
+    transform: translateY(13%);
+  }
+  #skill{
+    transform: translateY(7%);
+  }
+}
+
+@media screen and (max-width:836px){
+  #home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    gap: 20px;
+  }
+  #content h4{
+    font-size: x-large;
+    font-weight: 400;
+    word-spacing: 5px;
+  }
+#content h5{
+  font-size: medium;
+  font-weight: 400;
+  word-spacing: 5px;
+}
+#content span{
+  font-size: large;
+  font-weight: 400;
+  color: red;
+}
+#content p{
+  font-size: medium;
+  font-weight: 400;
+  word-spacing: 5px;
+  margin-right: 2%;
+}
+#content button{
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+}
+}
+
+@media screen and (max-width:829px){
+  #content1{
+    height: 430px;
+  }
+ #content1 li{
+  font-size: medium;
+  font-weight: 400;
+ }
+ #about h4{
+  font-size: x-large;
+  font-weight: 600;
+ }
+ #skill h4{
+  font-size: x-large;
+  font-weight: 600;
+ }
+ .html li{
+  font-size: medium;
+}
+#project1 h4{
+  font-size: x-large;
+  font-weight: 600;
+}
+}
+
+@media screen and (max-width:780px){
+  #toggle{
+    display: block;
+    flex: 1;
+  }
+  #menu1 li{
+    display: block;
+  }
+  #menu li{
+    display: none;
+  }
+}
+
+@media screen and (max-width:750px){
+  #contact{
+    transform: translateY(200%);
+  }
+}
+
+@media screen and (max-width:740px){
+  #project1{
+    transform: translateY(15%);
+  }
+  #contact{
+    transform: translateY(130%);
+  }
+}
+
+@media screen and (max-width:666px){
+  #contact{
+    height: 220px;
+    transform: translateY(100%);
+  }
+  #icons{
+    margin-left: 43%;
+  }
+  #contact h4{
+    margin-top: 1%;
+  }
+}
+
+@media screen and (max-width:641px){
+  #skill{
+    transform: translateY(3%);
+  }
+  #project1{
+    transform: translateY(10%);
+  }
+  #contact{
+    transform: translateY(70%);
+  }
+}
+
+@media screen and (max-width:614px){
+  #content1{
+    height: 490px;
+  }
+  #icons{
+    margin-left: 42%;
+  }
+}
+
+@media screen and (max-width:563px){
+  #content1{
+    height: 550px;
+  }
+  #about{
+    transform: translateY(13%);
+  }
+  #skill{
+    transform: translateY(4%);
+  }
+  #project1{
+    transform: translateY(14%);
+  }
+  #contact{
+    transform: translateY(90%);
+  }
+  #icons{
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width:495px){
+  #content1{
+    height: 620px;
+  }
+  #icons{
+    gap: 30px;
+    margin-left: 38%;
+  }
+}
+
+@media screen and (max-width:440px){
+  #content1{
+    height: 700px;
+  }
+  #about{
+    transform: translateY(10%);
+  }
+}
+
+@media screen and (max-width:397px){
+  #contact{
+    height: 260px;
+  }
+  #icons{
+    margin-left: 35%;
+  }
+} 
+
+@media screen and (max-width:380px){
+  #content1{
+    height: 780px;
+  }
+}
+
+@media screen and (max-width:356px){
+#home{
+  height: 530px;
+}
+}
+
+@media screen and (max-width:342px){
+  #content1{
+    height: 850px;
+  }
+}
+
